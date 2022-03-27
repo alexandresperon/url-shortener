@@ -1,6 +1,6 @@
 import { UrlModel } from '@core/model/url.model';
 import { Inject, Injectable } from '@nestjs/common';
-import { GetUrlGateway } from '@core/gateway/ger-url.gateway';
+import { GetUrlGateway } from '@core/gateway/get-url.gateway';
 
 @Injectable()
 export class GetUrlUseCase {

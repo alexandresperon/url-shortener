@@ -4,7 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { UrlEntity } from '@dataprovider/database/entity/url.entity';
 import { GetUrlUseCase } from '@core/usecase/get-url.usecase';
 import { RedirectUrlController } from '@entrypoint/rest/controller/redirect-url.controller';
-import { GetUrlGateway } from '@core/gateway/ger-url.gateway';
+import { GetUrlGateway } from '@core/gateway/get-url.gateway';
 
 @Module({
   imports: [TypeOrmModule.forFeature([UrlEntity])],
